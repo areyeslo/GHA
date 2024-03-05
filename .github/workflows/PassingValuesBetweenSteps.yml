@@ -30,5 +30,5 @@ jobs:
           echo variableName: ${{ env.variableName }}
           echo var1_name: ${{ steps.var_source_step.outputs.var1_name }}
           echo var2_date: ${{ steps.var_source_step.outputs.var2_date }}
-          echo var3_name: ${{ steps.var_source_step.outputs.var3_name }}
-          echo var4_date: ${{ steps.var_source_step.outputs.var4_date }}
+          echo var3_name: ${{ steps.var_source_step_no_set_output.outputs.var3_name }}
+          echo var4_date: ${{ steps.var_source_step_no_set_output.outputs.var4_date }}
